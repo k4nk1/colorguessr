@@ -12,12 +12,16 @@ body{
     text-align: center;
     display: flex;
     font-family: "Helvetica Neue", Arial, sans-serif;
+    user-select: none;
 }
 
 .title{
+    font-size: 50px;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
+    color: white;
+    white-space: nowrap;
 }
 
 .credit{
